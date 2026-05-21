@@ -37,32 +37,6 @@ Image filtering logic is implemented in `app/src/main/java/com/example/coroutine
 2. Let Gradle sync complete
 3. Run the `app` configuration on an emulator or device
 
-### Command line
-
-```bash
-cd /home/boay274145/AndroidStudioProjects/CoroutineIntro
-./gradlew assembleDebug
-```
-
-The generated APK is typically placed under:
-`app/build/outputs/apk/debug/`
-
-## Tests
-
-Run unit tests:
-
-```bash
-cd /home/boay274145/AndroidStudioProjects/CoroutineIntro
-./gradlew testDebugUnitTest
-```
-
-Run instrumented tests (requires connected device/emulator):
-
-```bash
-cd /home/boay274145/AndroidStudioProjects/CoroutineIntro
-./gradlew connectedDebugAndroidTest
-```
-
 ## Notes
 
 - The app needs internet access to download the sample image.
